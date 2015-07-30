@@ -10,7 +10,17 @@
 | and give it the controller to call when that URI is requested.
 |
 */
+use laravgo\Contact;
+
 
 Route::get('/', function () {
     return view('welcome');
+});
+
+Route::get('/list', function() {
+
+    return View::make('list')
+        // all the bears (will also return the fish, trees, and picnics that belong to them)
+        ->with('contacts', Contact::all());
+
 });
