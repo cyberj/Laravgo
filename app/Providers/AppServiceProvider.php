@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Providers;
+namespace laravgo\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

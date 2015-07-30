@@ -140,9 +140,9 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        laravgo\Providers\AppServiceProvider::class,
+        laravgo\Providers\EventServiceProvider::class,
+        laravgo\Providers\RouteServiceProvider::class,
 
     ],
 

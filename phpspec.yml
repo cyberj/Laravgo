@@ -1,5 +1,5 @@
 suites:
     main:
-        namespace: App
-        psr4_prefix: App
+        namespace: laravgo
+        psr4_prefix: laravgo
         src_path: app
